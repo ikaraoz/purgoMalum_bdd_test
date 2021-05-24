@@ -1,0 +1,59 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2578
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Arial-BoldMT;\f1\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red39\green39\blue38;
+\red255\green255\blue255;\red31\green31\blue31;\red255\green255\blue255;\red39\green39\blue38;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c20152\c20152\c19976;
+\cssrgb\c100000\c100000\c99895\c84706;\cssrgb\c16200\c16200\c16059;\cssrgb\c100000\c100000\c99971\c0;\cssrgb\c20173\c20173\c19972;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid101\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid201\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid401\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid5}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww38200\viewh18700\viewkind0
+\deftab720
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f0\b\fs24 \cf2 \cb3 1. \cb3 \expnd0\expndtw0\kerning0
+How long did you spend on the technical test? What would you add to your solution if you had more time? If you didn't spend much time on the technical test then use this as an opportunity to explain what you would add?\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0 \cf2 \cb3 	I have spent approximately 5 hours on the technical test (in three sittings). I spent this time reading PurgoMalum documentation throughly to understand how the API worked and what the requirements were (e.g. expected outcomes, word and character limits), testing the API with parameters on Postman, writing high-level scenarios, converting those scenarios to fine-grained scenarios with steps written in gherkin language, implementing those steps with rest-assured library, and finally preparing the defect report.\cb3 \
+\cb3 I tested whether the service could return results in \cb3 plain text, XML and JSON. Yet, for the rest of the tests, I set JSON as the content type. If I had time, I would have tested each optional query parameter (add, fill_text, fill_char) with other two content types, plain and XML, as well.\cb3 \
+\cb3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 2. \cb3 \expnd0\expndtw0\kerning0
+What do you think is the most interesting trend in test automation?\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0 \cf2 \cb3 	Need for more test \'91automation\'92 is itself a rising trend and alongside with it, accessibility testing, AI-enhanced testing, and testing on cloud-based platforms are getting more popular. Among these, automating API tests and integrating them to CI/CD pipeline and monitoring them over the pipeline is among the most interesting trends. The reason is that APIs and services will be called both by the WebUI and Mobile UI clients and the other services (e.g. payment service calling ledger or accounts service endpoints). So by automating operational flows (e.g. customer onboarding, or a new Chip product definition and activation flow comprising a number of endpoints) and testing them continuously on a pipeline and independently from the clients calling them will help finding out defects at a much earlier stages of the development.\cb3 \
+\cb3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 3. \cb3 \expnd0\expndtw0\kerning0
+Explain the concept of contract testing and the best strategy for implementation.\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0 \cf2 \cb3 	An API contract is a contract between a consumer or client which would like to consume data from the server (front end or another microservice) and the provider which serves the data that consumer/client asks for. Contract documents how the API will behave, endpoint urls, path and query parameters, what headers it expects such as content-type, request (if applicable) and response schemas, success and error response status codes and messages. Contract testing validates whether an endpoint works as expected in the contract (which is generally documented in a swagger documentation). For example, while a POST endpoint is expecting a request body with username and password fields in \'91json\'92 format, if the request is made in a content-type other than json (such as text or xml), API should not process this request as it does not conform to the contract. In a similar way, adding a third field to the request body (e.g. email or phoneNumber) should again be rejected as it does not match the expected request body in the schema.\
+\
+One good strategy for contract testing is testing an active endpoint rather than mocked servers. This ensures that contract requirements are met by using real data on Postman for example. \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0\cf2 \cb3 \kerning1\expnd0\expndtw0 \
+\ls4\ilvl0
+\f0\b 4. \cb3 \expnd0\expndtw0\kerning0
+Please describe yourself using JSON.\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0 \cf2 \cb3 	Please see attached file (ismailkaraozz.json) in the email.\
+\cb3 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls5\ilvl0
+\f0\b \cf2 \cb3 \kerning1\expnd0\expndtw0 5. \cb3 \expnd0\expndtw0\kerning0
+What are your thoughts on manual vs automation testing?\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0 \cf2 \cb3 	I believe there should be fine balance between manual testing and automated tests.\cb3 \
+\cb3 	All tests initially start with manual exploratory te\cb7 sting anyway (at least this is what I do). With manual testing, it is faster to execute tests as test automation requires additional planning and programming with test automation tool. When a functionality is continuously changing or there are time constraints such as the end of the sprints and PIs, manual testing can offer better value in return. For example, when the development of an endpoint is finished (let\'92s say an endpoint for making payments) and I have received information from the developer how the endpoint is working (such as authorization, request body, database structure before and after calling the endpoint, etc), I do not go and automate it right away. I first explore and test it manually on Postman to see what fu\cb3 rther test cases and scenarios I can generate for this payment feature. By doing so, I know from my experience that I can handle more complex and nuanced test scenarios. I, for example, found out defects about authorization on the same day dev-task ticket was complete. Again on a similar task, I found another defect in the payment request body and reported that immediatelly to the developer. If I had gone into automating those specific features immediatelly without first testing them manually, I would have made the developer wait for me to finish my test automation process, and s/he would have lost very precious time.\cb3 \
+\cb3 Then, of course, we need test automation. While manual testing is useful for finding defects much earlier, in the long term, it is not very efficient. Expecially for end-to-end tests, smoke and regression tests which will need to be run repetitively, automated tests will increase productivity by allowing a tester to do more testing in less time and with more test coverage. This will increase productivity because I can focus more on user story and requirement analysis and writing test cases and scenarios for new features. To continue with above examples of customer onboarding and payment features, as a tester, it would cost me huge amount of time to run their tests every day manually. So, by creating a postman collection of customer onboarding and running this on jenkins, I could ensure that an important feature is working as expected in a very short period of time.\cb3 \
+\cb3 To sum up, manual and automated tests are complementary to one another rather than binary options of which one should be selected. We need both manual and automated tests. Manual testing is important to detect defects earlier and for complex test cases. But automation testing is crucial to run our tests more efficiently by reducing repetitive manual tasks and thereby saving from time and resources.}

@@ -1,0 +1,292 @@
+{
+    "profile": {
+      "firstName": "Ismail",
+      "lastName": "Karaoz",
+      "role": "QA Automation Tester",
+      "email": "i.karaoz@outlook.com",
+      "phone": "07552807687",
+      "summary": "Skilled and driven QA Automation Tester, eager to contribute to team success through hard work, attention to detail and excellent organizational skills at every step of software testing lifecycle, and passion for the quality of the product under test. Experience in manual and automated WebUI and API Testing. Great communicator with colleagues striving towards an improvement in product quality and processes. Equipped with critical thinking skills. Skills set and experience in performing both automation and manual testing. Motivated to learn, grow and excel in QA Automation Testing.",
+      "location": {
+        "postalCode": "RG2",
+        "city": "Reading",
+        "countryCode": "UK",
+        "county": "Berkshire"
+      },
+      "social": {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/ismail-karaoz-qa-automation"
+      },
+      "requireSponsorship": false,
+      "funFact": "I do not know if this will sound much fun, but an interesting fact about me is that I have 360-photographed more than 50 spots in the UK and contributed to Google Street View. I am a Google Trusted Photographer :)"
+    },
+    "skills": [
+      {
+        "name": "Rest Api Testing",
+        "tools": [
+          "Postman",
+          "Newman",
+          "Swagger",
+          "RestAssured library",
+          "Chai library"
+        ]
+      },
+      {
+        "name": "Behaviour Driven Development",
+        "tools": [
+          "Cucumber",
+          "Gherkin"
+        ]
+      },
+      {
+        "name": "Finance Technology",
+        "tools": [
+          "Core banking",
+          "Ledger and interest operations",
+          "Payment services",
+          "Customer onboarding/registration"
+        ]
+      },
+      {
+        "name": "Agile Methodology",
+        "tools": [
+          "Jira",
+          "Daily scrums",
+          "Technical refinement",
+          "Backlog refinement"
+        ]
+      },
+      {
+        "name": "CI/CD",
+        "tools": [
+          "Git",
+          "Bitbucket",
+          "Github",
+          "Docker",
+          "Jenkins",
+          "AWS"
+        ]
+      },
+      {
+        "name": "Database",
+        "tools": [
+          "MariaDB",
+          "SQL",
+          "DBeaver"
+        ]
+      },
+      {
+        "name": "WebUI/Mobile Testing",
+        "tools": [
+          "Selenium WebDriver",
+          "Appium"
+        ]
+      },
+      {
+        "name": "Programming Languages",
+        "tools": [
+          "Java",
+          "JavaScript",
+          "Python"
+        ]
+      }
+    ],
+    "work": [
+      {
+        "company": "Finspire Technology Ltd",
+        "position": "QA Automation Tester",
+        "website": "https://finspiretech.com",
+        "startDate": "2021-01-01",
+        "endDate": "present",
+        "highlights": [
+          "Worked on two mobile banking applications (business and personal digital banking applications)",
+          "Tested APIs in combination with web UI and mobile applications, and ensured data integrity and consistency between the UI and API in the database.",
+          "Created smoke test suites and integrated in CI/CD pipeline with Postman."
+        ]
+      },
+      {
+        "company": "Heyman AI Ltd",
+        "position": "QA Automation Tester",
+        "website": "https://www.linkedin.com/company/hymnai/",
+        "startDate": "2020-09-01",
+        "endDate": "2020-12-17",
+        "highlights": [
+          "Tested digital banking features (e.g. customer onboarding, authorization, customer account/ledger operations etc.), both manually and with automated test scripts"
+        ]
+      },
+      {
+        "company": "PPMAP Ltd",
+        "position": "Software QA Tester",
+        "website": "",
+        "startDate": "2020-05-01",
+        "endDate": "2020-09-01",
+        "highlights": [
+          "Executed both automated and manual functional tests with Java RestAssured library, Postman, and Selenium WebDriver",
+          "Increased test coverage by writing robust test plans and test cases"
+        ]
+      },
+      {
+        "company": "University of Reading",
+        "position": "Learning Technologist and Advisor",
+        "website": "http://www.reading.ac.uk",
+        "startDate": "2016-05-01",
+        "endDate": "2020-09-01",
+        "highlights": [
+          "Tested a repository of language learning apps and websites (e.g. Duolingo, Memrise, Road To IELTS, YouGlish, TedTalks, Tandem)",
+          "Improved students' technology adoption for language learning by training them how to test quality of web applications and mobile applications",
+          "Increased students' engagement with a series of online academic writing courses on FutureLearn platform by overseeing their learning activities and providing feedback"
+        ]
+      },
+      {
+        "company": "Henley Business School",
+        "position": "Researcher",
+        "website": "http://henley.ac.uk",
+        "startDate": "2020-04-01",
+        "endDate": "2020-09-01",
+        "highlights": [
+          "Conducted a systematic review of impact studies in global warming and climate change topics as part of a research project which is being conducted in collaboration with EuroMetrex (The Network of European Metropolitan Regions and Areas)"
+        ]
+      },
+      {
+        "company": "Institute of Education, UoR",
+        "position": "Research Assistant",
+        "website": "https://www.reading.ac.uk/education",
+        "startDate": "2019-10-01",
+        "endDate": "2020-02-28",
+        "highlights": [
+          "Analysing qualitative and quantitative data, maintaining accurate records of interviews, safeguarding the confidentiality of subjects, as necessary, summarizing interviews, providing ready access to all data for the principal supervisor, managing and responding to project-related correspondence."
+        ]
+      },
+      {
+        "company": "Dumlupinar University",
+        "position": "English as a Foreign Language Teacher",
+        "website": "https://www.dpu.edu.tr",
+        "startDate": "2010-08-17",
+        "endDate": "2012-09-15",
+        "highlights": [
+          "Tested DPU Learning Management System to improve students' engagement with learning materials",
+          "Improved student motivation by upgrading Business/Finance English course content by liaising with business representatives and academics",
+          "Increased students' English vocabulary knowledge and command of speaking by testing the quality of and integrating language learning web applications"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Reading",
+        "subject": "Education",
+        "area": "Educational technologies and autonomous language learning",
+        "studyType": "Doctor of Philosophy",
+        "startDate": "2014-01-01",
+        "endDate": "2020-10-01",
+        "pass": true
+      },
+      {
+        "institution": "FSV Solutions",
+        "subject": "Software Quality Assurance",
+        "area": "QA Automation Tester/SDET Program",
+        "studyType": "",
+        "startDate": "2019-10-01",
+        "endDate": "2020-06-01",
+        "pass": true
+      },
+      {
+        "institution": "University of Reading",
+        "subject": "English Language Teaching",
+        "area": "Teaching English as a Foreign Language",
+        "studyType": "Master of Arts",
+        "startDate": "2012-10-01",
+        "endDate": "2013-09-15",
+        "pass": true
+      },
+      {
+        "institution": "Bursa Uludag University",
+        "subject": "English Language Teaching",
+        "area": "Teaching English as a Foreign Language",
+        "studyType": "Bachelor or Arts",
+        "startDate": "2006-09-01",
+        "endDate": "2010-06-15",
+        "pass": true
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Selenium WebDriver with Docker, Jenkins and AWS",
+        "issuedBy": "Udemy",
+        "issueDate": "2021-05-01",
+        "credentialId": "UC-9ca3ca61-a3b4-4107-a1eb-92489eaeb473",
+        "credentialURL": "ude.my/UC-9ca3ca61-a3b4-4107-a1eb-92489eaeb473"
+      },
+      {
+        "name": "Advanced JMeter",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2021-02-15",
+        "credentialId": "AXoN1zNOsPS-uah4y6n7oT6bY_H5",
+        "credentialURL": ""
+      },
+      {
+        "name": "JMeter: Perfomance and Load Testing",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2021-02-03",
+        "credentialId": "Aaa6Cp1cpGJlx-O8rM_pPk5s3Kxf",
+        "credentialURL": ""
+      },
+      {
+        "name": "SQL for Testers",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2020-10-17",
+        "credentialId": "AQRMqt-sPlYnUoO-5vxeGTF3h-hr",
+        "credentialURL": ""
+      },
+      {
+        "name": "Agile Testing",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2020-05-24",
+        "credentialId": "ARiw-_kPMHqqAD6eWkumPkvbYJ0P",
+        "credentialURL": ""
+      },
+      {
+        "name": "API Testing and Validation",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2020-05-24",
+        "credentialId": "AbI3ZZcktqQ9FHiuXzOqvLnbsJiM",
+        "credentialURL": ""
+      },
+      {
+        "name": "Mobile Testing with Appium",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2020-05-21",
+        "credentialId": "AfHryo3i8T88mWttPJFA7NvsL65F",
+        "credentialURL": ""
+      },
+      {
+        "name": "Git: Branches, Merges, and Remotes",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2020-05-04",
+        "credentialId": "ATSqeEjviWt7Sjb-n92p5acPRo3L",
+        "credentialURL": ""
+      },
+      {
+        "name": "Git Essential Training: The Basics",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2020-05-03",
+        "credentialId": "AUb7RWLESJr6ld42xnTVLV9pQh8W",
+        "credentialURL": ""
+      },
+      {
+        "name": "Behavior-Driven Development",
+        "issuedBy": "LinkedIn",
+        "issueDate": "2020-03-31",
+        "credentialId": "AZpaU-KROvpL553eRzoEnxnu9JQm",
+        "credentialURL": ""
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Advanced"
+      },
+      {
+        "language": "Turkish",
+        "fluency": "Native Speaker"
+      }
+    ]
+  }
